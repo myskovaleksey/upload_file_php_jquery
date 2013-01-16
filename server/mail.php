@@ -42,8 +42,8 @@ $headers = $mime->headers($headers);
 
 $host = "smtp.gmail.com";
 $post = "465";
-$username = "miskovaleksey@gmail.com";
-$password = "Miskovaleksey_83";
+$username = "123@gmail.com";
+$password = "123";
 
 $smtp = Mail::factory('smtp', 
   array ('host' => $host, 
